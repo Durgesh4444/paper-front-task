@@ -35,8 +35,8 @@
     background-color: #fff;
   }
   .topic div {
-    justify-content: center;
-    gap: 1.5rem;
+    justify-content: space-evenly;
+    
   }
 
   /* main / card section  */
