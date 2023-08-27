@@ -5,13 +5,18 @@
     width: 90%;
   }
   header nav .nav-left {
-    gap: 1rem;
+    gap: 1.3rem;
   }
   header nav .nav-left div a,
   header nav .nav-right input,
   header nav .nav-right span {
     display: none;
   }
+  header nav .nav-right {
+    
+    gap: 1.3rem;
+   
+}
   header nav .nav-right i {
     position: static;
     color: #000;
@@ -31,6 +36,7 @@
   }
   .topic div {
     justify-content: center;
+    gap: 1.5rem;
   }
 
   /* main / card section  */
