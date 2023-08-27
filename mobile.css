@@ -72,6 +72,7 @@
   main section .card figure {
     width: 45%;
     height: 45%;
+    margin: 2.2rem auto;
   }
   main section .card .price div {
     border-top-right-radius: 10px;

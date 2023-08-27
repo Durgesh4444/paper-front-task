@@ -39,6 +39,8 @@
     /* menue / topic section  */
     .topic div {
         width: 95%;
+        display: flex;
+        justify-content: center;
         
     }
 
@@ -48,7 +50,7 @@
         
     }
     main section .card {
-        height: 19vh;
+        height: 13rem;
     }
     main section .card .icon-special div:nth-child(2){
         background-color: #fff;
