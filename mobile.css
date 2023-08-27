@@ -4,16 +4,23 @@
   header nav {
     width: 90%;
   }
+  header nav .nav-left, header nav .nav-right, header nav .nav-center{
+    width: 30%;
+  }
   header nav .nav-left {
-    gap: 20px;
+    justify-content: space-between;
   }
   header nav .nav-left div a,
   header nav .nav-right input,
   header nav .nav-right span {
     display: none;
   }
+  header nav .nav-center {
+    display: flex;
+    justify-content: center;
+  }
   header nav .nav-right {
-    gap: 20px;
+   justify-content: space-between;
    
 }
   header nav .nav-right i {
