@@ -5,7 +5,7 @@
     width: 90%;
   }
   header nav .nav-left {
-    gap: 1.3rem;
+    justify-content: space-between;
   }
   header nav .nav-left div a,
   header nav .nav-right input,
@@ -13,8 +13,7 @@
     display: none;
   }
   header nav .nav-right {
-    
-    gap: 1.3rem;
+    justify-content: space-between;
    
 }
   header nav .nav-right i {
