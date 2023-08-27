@@ -1,0 +1,65 @@
+@media only screen and (max-width: 600px) {
+  /* navbar section */
+  
+  header nav {
+    width: 90%;
+  }
+  header nav .nav-left {
+    gap: 1rem;
+  }
+  header nav .nav-left div a,
+  header nav .nav-right input,
+  header nav .nav-right span {
+    display: none;
+  }
+  header nav .nav-right i {
+    position: static;
+    color: #000;
+    font-size: 18px;
+  }
+
+  /* banner section  */
+
+  .container {
+    display: none;
+  }
+
+  /* topic / card section  */
+  .topic {
+    padding: 5vh 0;
+    background-color: #fff;
+  }
+  .topic div {
+    justify-content: center;
+  }
+
+  /* main / card section  */
+  main {
+    background-color: #fff;
+  }
+  main section {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  main section .card {
+    width: 100%;
+    margin-bottom: 10%;
+    border-radius: 10px;
+    height: 36vh;
+    box-shadow: -1px -1px 10px #525252;
+  }
+  main section .card .icon-special div:nth-child(2) {
+    border-top-left-radius: 10px;
+    font-size: 1.3rem;
+}
+  main section .card figure {
+    width: 45%;
+    height: 45%;
+  }
+  main section .card .price div {
+    border-top-right-radius: 10px;
+  }
+}

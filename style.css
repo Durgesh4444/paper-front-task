@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    
+}
+body{
+    font-family: 'Outfit', sans-serif;}
+
+
+
+
+/* header / navbar section  */
+
+header{
+    background-color: #FFFFFF;
+    padding: 3vh 0;
+    box-shadow:2px 2px 20px #504f4f;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+/* navbar left section  */
+
+header nav .nav-left{
+    display: flex;
+    gap: 1.2rem;
+    color: #bebfc4;
+
+}
+
+header nav .nav-left div{
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+header nav .nav-left div a{
+    color: #bebfc4;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.3s;
+    
+    
+}
+
+.active, header nav .nav-left .active a{
+    color: #525252;
+}
+
+header nav .nav-left div:hover a{
+    color: #525252 !important;
+}
+header nav .nav-left div:hover{
+    color: #525252 !important;
+}
+
+/* navbar center section */
+.nav-center i{
+    cursor: pointer;
+    transition: 0.5s;
+}
+.nav-center i:hover{
+    color: #27c1a2 !important;
+    
+}
+
+/* navbar right section */
+
+header nav .nav-right{
+    position: relative;
+    display: flex;
+    gap: 1rem;
+    color: #C0C0C0;
+    align-items: center;
+    
+}
+
+header nav .nav-right input{
+    outline: none;
+    border: none;
+    background-color: #F3F3F3;
+    border-radius: 20px;
+    padding: 0.6rem 2.2rem;
+    color: #C0C0C0;
+}
+
+::placeholder{
+    font-family: 'Outfit', sans-serif;
+    color: #C0C0C0;
+    font-size: 15px;
+}
+header nav .nav-right i{
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+}
+
+header nav .nav-right button{
+    background-color: #2FDAB8;
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+header nav .nav-right button:hover{
+    background-color: #27c1a2;
+}
+
+
+/* banners section  */
+.container{
+    background-color: #96F8E3;  
+}
+.container .banner{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.container .banner .heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 7% 3% 27%;
+}
+.container .banner .heading span{
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: #579387;
+    font-weight: 500;
+}
+
+.container .banner .menue{
+    display: flex;
+    font-size: 1.4rem;
+    color: #83C7AF;
+}
+.container .banner .menue .dark{
+color:#579387 ;
+font-weight: bold;
+}
+.container .banner .menue div{
+    border: 1px solid #83C7AF;
+    border-bottom: none;
+    width: 100%;
+    text-align: center;
+    padding: 2% 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.container .banner .menue div:hover{
+    background-color:#8FECD8 ;
+}
+
+.container .banner .menue div:nth-child(1){
+    border-left: none;
+}
+
+.container .banner .menue div:nth-child(3){
+    border-right: none;
+}
+
+/* topic section  */
+.topic{
+    padding: 2% 0;
+    background-color: #F2F2F2;
+}
+
+.topic div{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    gap: 1rem;
+    font-size: 1.1rem;
+    transition: 0.5s;
+}
+.topic div a{
+    font-size: 1.1rem;
+    transition: 0.4s;
+    color: #525252;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.topic div a:nth-child(2), .topic div a:nth-child(3){
+    color: #bebfc4;
+}
+.topic div a:hover{
+    cursor: pointer;
+    color: #525252;
+}
+
+/* main / card section  */
+main{
+    background-color: #F2F2F2;
+}
+main section{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main section .card{
+    background-color: #fff;
+    width: 31%;
+    margin-bottom: 4%;
+    cursor: pointer;
+    transition: 0.5s;
+    height: 45vh;
+}
+main section .card:hover{
+    box-shadow: -2px -2px 15px #525252;
+    position: relative;
+    top: -2px;
+}
+
+main section .card .price div{
+    margin-left: auto;
+    background-color: #27c1a2;
+    width: 25%;
+    text-align: center;
+    color: #fff;
+    padding: 3%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+main section .card .icon-special{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+main section .card .icon-special div{
+    margin-left: 0;
+}
+main section .card .icon-special div:nth-child(2){
+    background-color: #fff;
+    font-size: 1.5rem;
+}
+main section .card .price div span{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+main section .card figure{
+    width:50%;
+    height: 50%;
+    margin: 10% auto;
+}
+main section .card figure img{
+    width: 100%;
+    height: 100%;
+}
+.card .add-details{
+width: 90%;
+margin: 0 auto;
+color: #bebfc4;
+
+}
+
+.card .add-details .left-detail{ display: flex;
+    gap: 0.1rem;
+    align-items: center;
+    font-weight: bold;
+}
+.card .add-details .left-detail img{
+    border-radius: 50%;
+
+   
+    
+}

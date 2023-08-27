@@ -1,0 +1,66 @@
+@media (max-width:950px) and (min-width:600px) {
+    /* navbar / header section  */
+
+    header nav {
+        width: 95%;     
+    }
+    header {
+        padding: 2vh 0;
+
+    }
+    header nav .nav-left {   
+        gap: 1rem;
+    }
+
+    header nav .nav-left div {   
+        font-size: 18px;
+    
+    }
+    header nav .nav-right {
+        gap: 0.5rem;
+        width: 40%;
+        
+    }
+    header nav .nav-right input {
+         padding: 0.6rem 2rem;
+         width: 50%;
+    }
+
+    /* banner section  */
+
+    .container .banner {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .container .banner .heading {
+        padding: 3% 7% 3% 15%;
+    }
+
+    /* menue / topic section  */
+    .topic div {
+        width: 95%;
+        
+    }
+
+    /* main / card section  */
+    main section {
+        width: 95%;
+        
+    }
+    main section .card {
+        height: 19vh;
+    }
+    main section .card .icon-special div:nth-child(2){
+        background-color: #fff;
+        font-size: 1rem;
+    }
+    main section .card figure {
+        width: 50%;
+        height: 40%;    
+        
+    }
+    main section .card .price div span {
+        font-size: 15px;
+    }
+    
+}
